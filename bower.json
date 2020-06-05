@@ -1,8 +1,8 @@
 {
-  "name": "photoswipe",
+  "name": "itg-photoswipe",
   "homepage": "https://photoswipe.com",
   "authors": [
-    "Dmitry Semenov <diiiimaaaa@gmail.com> (http://dimsemenov.com)"
+    "ITEGRATION (http://itegration.com)"
   ],
   "description": "Touch-friendly image gallery for mobile and desktop. Without dependencies.",
   "main": [
@@ -23,7 +23,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/dimsemenov/PhotoSwipe.git"
+    "url": "git@github.com:itgconsulting/PhotoSwipe.git"
   },
   "license": "MIT",
   "ignore": [

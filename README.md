@@ -8,8 +8,8 @@ JavaScript image gallery for mobile and desktop.
 
 - [Documentation and getting started guide](http://photoswipe.com/documentation/getting-started.html).
 - [Demo and script home page](http://photoswipe.com).
-- [NPM](https://www.npmjs.com/package/photoswipe) `npm install photoswipe`.
-- Bower `bower install photoswipe`.
+- [NPM](https://www.npmjs.com/package/photoswipe) `npm install itg-photoswipe`.
+- Bower `bower install itg-photoswipe`.
 
 ## Location of files
 
