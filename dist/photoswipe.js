@@ -10,7 +10,7 @@
 		root.PhotoSwipe = factory();
 	}
 })(this, function () {
-
+	console.log("test")
 	'use strict';
 	var PhotoSwipe = function(template, UiClass, items, options){
 
