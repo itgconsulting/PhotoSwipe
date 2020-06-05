@@ -40,7 +40,7 @@ To compile PhotoSwipe by yourself, make sure that you have [Node.js](http://node
 
 1) Clone the repository
 
-	git clone https://github.com/dimsemenov/PhotoSwipe.git
+	git clone https://github.com/itgconsulting/PhotoSwipe.git
 
 2) Go inside the PhotoSwipe folder that you fetched and install Node dependencies
 
