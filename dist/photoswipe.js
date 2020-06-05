@@ -990,7 +990,7 @@
 				_isOpen = false;
 				_isDestroying = true;
 				_shout('close');
-				_unbindEvents();
+				// _unbindEvents();
 
 				_showOrHide(self.currItem, null, true, self.destroy);
 			},
