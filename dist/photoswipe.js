@@ -507,6 +507,10 @@
 			},
 
 			_equalizePoints = function(p1, p2) {
+
+				if (!p2) {
+					p2 = p1;
+				};
 				p1.x = p2.x;
 				p1.y = p2.y;
 				if(p2.id) {
@@ -990,7 +994,7 @@
 				_isOpen = false;
 				_isDestroying = true;
 				_shout('close');
-				// _unbindEvents();
+				_unbindEvents();
 
 				_showOrHide(self.currItem, null, true, self.destroy);
 			},
@@ -2524,6 +2528,9 @@
 
 		var _showOrHideTimeout,
 			_showOrHide = function(item, img, out, completeFn) {
+				if (!item.initialPosition) {
+					item.initialPosition = {x: 0, y:0}
+				}
 
 				if(_showOrHideTimeout) {
 					clearTimeout(_showOrHideTimeout);
@@ -3172,6 +3179,9 @@
 						_currZoomElementStyle = baseDiv.style;
 						_showOrHide(item, (img ||item.img) );
 					} else {
+						if (!item.initialPosition) {
+							item.initialPosition = {x: 0, y: 0}
+						}
 						_applyZoomPanToItem(item);
 					}
 
